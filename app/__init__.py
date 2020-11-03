@@ -2,6 +2,7 @@
 import sqlite3
 
 __author__ = 'CubexX'
+__edited_by__ = 'Hukyl'
 
 # from werkzeug.contrib.fixers import ProxyFix
 
@@ -43,5 +44,5 @@ def query_db(query, args=()):
 
 from app.views import login, panel, dialog, users
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
